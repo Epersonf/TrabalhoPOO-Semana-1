@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ex5 {
 	
 	public static void evaluate(int x) {
@@ -15,7 +17,10 @@ public class ex5 {
 	}	
 	
 	public static void main(String[] args) {
-		evaluate(13);
+		System.out.print("Digite o valor: ");
+		Scanner scan = new Scanner(System.in);
+		int input = scan.nextInt();
+		evaluate(input);
 	}
 	
 }
