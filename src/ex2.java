@@ -8,6 +8,6 @@ public class ex2 {
 	}
 	
 	public static void main(String[] args) {
-		printMultiples(3, 0, 100);
+		printMultiples(3, 1, 100);
 	}
 }
