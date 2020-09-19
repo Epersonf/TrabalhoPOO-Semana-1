@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ex3 {
 	
 	public static int fat(int n) {
-		if (n == 1) return 1;
+		if (n <= 1) return 1;
 		return n * fat(n - 1);
 	}
 	
