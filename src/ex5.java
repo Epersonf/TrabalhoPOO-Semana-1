@@ -21,6 +21,7 @@ public class ex5 {
 		Scanner scan = new Scanner(System.in);
 		int input = scan.nextInt();
 		evaluate(input);
+		scan.close();
 	}
 	
 }

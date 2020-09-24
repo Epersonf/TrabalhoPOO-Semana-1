@@ -12,5 +12,6 @@ public class ex3 {
 		Scanner scan = new Scanner(System.in);
 		int input = scan.nextInt();
 		System.out.println("Fatorial: " + fat(input));
+		scan.close();
 	}
 }
